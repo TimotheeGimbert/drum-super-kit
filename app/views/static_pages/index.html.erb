@@ -1,17 +1,22 @@
-<div class="page">
+<section class="page">
 
-  <div data-key="65" class="pad playing">
+  <div data-key="65" class="pad">
     <kbd>A</kbd>
-    <span>| KicK</span>
+    <span>KicK</span>
   </div>
 
   <div data-key="68" class="pad">
     <kbd>D</kbd>
-    <span>| SnaRe</span>
+    <span>SnaRe</span>
   </div>
 
-  <div data-key="96" class="pad">Hi-HaTs</div>
+  <div data-key="72" class="pad">
+    <kbd>H</kbd>
+    <span>Hi-HaTs</span>
+  </div>
 
-</div>
+</section>
 
-<audio data-key="65" src="kick.wav"></audio>
+<%= audio_tag("kick11.wav", 'data-key': "65", preload: 'auto' ) %>
+<%= audio_tag("clap11.wav", 'data-key': "68", preload: 'auto' ) %>
+<%= audio_tag("hh11.wav", 'data-key': "72", preload: 'auto' ) %>
