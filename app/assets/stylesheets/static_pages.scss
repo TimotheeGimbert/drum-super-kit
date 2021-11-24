@@ -10,19 +10,33 @@
   align-items: center;
 
   .pad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 10%;
     border: 3px solid rgba(255, 255, 255, 0.836);
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: rgba(0, 0, 0, 0.623);
     margin: 51px;
     padding: 51px;
     color: rgba(255, 255, 255, 0.842);
     font-size: 22px;
     transition: all 0.11s;
+
+    > * {
+      margin: 10px;
+    }
+
+    span {
+      color:rgb(182, 175, 175);
+      font-weight: 400;
+    }
   }
 
   .playing {
     transform: scale(1.1);
-    border-color: rgba(37, 37, 35, 0.247);
-    box-shadow: 0 0 20px rgba(255, 251, 0, 0.815);
+    border-color: rgba(54, 25, 6, 0.384);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    font-weight: 1200;
   }
 
 }
