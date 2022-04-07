@@ -1,5 +1,1 @@
-# README
-
-HEROKU LIVE VERSION : 
-
-https://drum-kit-33270.herokuapp.com/
+[Découvrir DrumSuperKit en ligne](https://drum-super-kit.herokuapp.com/)
